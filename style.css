@@ -47,9 +47,10 @@ body {
 
 .scroll-bar span{
   border: 2px solid #fff;
-  font-size: 10px;
+  font-size: 30px;
   border-radius: 30px;
   align-items: center;
+  color: white;
 }
 
 scroll-bar{
@@ -61,7 +62,7 @@ scroll-bar{
 }
 
 .about{
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 .about .row{
@@ -77,10 +78,12 @@ scroll-bar{
   top: 0;
   position: sticky;
   z-index: 2;
+
 }
 
 .navbar{
   background-color: #000;
+
 }
 
 .navbar-brand img{
@@ -100,6 +103,10 @@ scroll-bar{
 .navbar-nav{
   float: right;
   text-align: right;
+}
+
+.navbar-nav li{
+  margin: 0 10px; 0 0;
 }
 
 .nav-link{
@@ -177,7 +184,9 @@ scroll-bar{
   padding-left: 10px;
   padding-right: 10px;
   font-size: 13px;
+  text-indent: 0 !important;
 }
+
 
 .timeline li:before{
   content: '';
@@ -215,6 +224,7 @@ scroll-bar{
 }
 
 .services-box span{
+  padding-left: 10px;
   margin: 3px;
   font-size: 18px;
   font-weight: bold;
@@ -224,6 +234,7 @@ scroll-bar{
   font-size: 15px;
   margin-top: 20px;
   color: #777;
+
 }
 
 .services-box:hover{
